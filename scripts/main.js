@@ -12,4 +12,18 @@ const showRandomUser = () => {
 
 };
 
+const applicationElement = document.querySelector("#showNewPerson");
+
+// applicationElement.addEventListener("click", (event) => {
+//     if (event.target.id === "showNewPerson") {
+//         showRandomUser();
+//     }
+// })
+
+applicationElement.addEventListener("click", () => {
+    showRandomUser();
+
+})
+
 showRandomUser();
+
