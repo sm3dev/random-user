@@ -2,11 +2,10 @@ import { User } from "./User.js";
 
 export const UserItem = (oneUser) => {
 	let userHTML = "";
-	//Loop over the array of posts and for each one, invoke the Post component which returns HTML representation
-	for (const UserObject of oneUser) {
-		//what is a UserObject?
-		userHTML += User(UserObject)
-	}
+	//no array to loop over, so invoke the User component which returns HTML representation
+	
+		userHTML += User(oneUser)
+	
 	return userHTML;
 	
 }

@@ -7,10 +7,9 @@ const showRandomUser = () => {
 
     const postElement = document.querySelector(".user-info__block");
     getRandomUser().then((oneUser) => {
-        postElement.innerHTML = 
-    })
+        postElement.innerHTML = UserItem(oneUser)
+    });
 
-    getRandomUser();
 };
 
 showRandomUser();
