@@ -10,9 +10,9 @@ export const User = (UserObject) => {
     </section>
     <section class="user-contact-info__block">
         <h3 class="section__title">Contact Info</h3>
-        <section class="phone-number__block"><a class="phone-number" href="tel:+${UserObject.phone}">Phone: ${UserObject.phone}</a></section>
-        <section class="cell-phone-number__block"><a class="cell-phone-number" href="tel:+${UserObject.cell}">Mobile: ${UserObject.cell}</a></section>
-        <section class="user-email-address__block"><a class="user-email-address" href="mailto:${UserObject.email}">Email: ${UserObject.email}</a></section>
+        <section class="phone-number__block">Phone: <a class="phone-number" href="tel:+${UserObject.phone}">${UserObject.phone}</a></section>
+        <section class="cell-phone-number__block">Mobile: <a class="cell-phone-number" href="tel:+${UserObject.cell}">${UserObject.cell}</a></section>
+        <section class="user-email-address__block">Email: <a class="user-email-address" href="mailto:${UserObject.email}">${UserObject.email}</a></section>
         <section class="user-location__block">
             <h3 class="location-block__title">Location</h3>
             <address>

@@ -30,7 +30,6 @@ export const getAge = (startDate) => {
 
     // Bryan helped a lot
 
-    console.log(calculateAge);
     return calculateAge;
 }
 
