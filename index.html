@@ -8,6 +8,78 @@
 </head>
 <body>
 	<h1>SPA Date with a Random User</h1>
+	<section class="user-info__block">
+		<section class="user-photo__block"><img src="picture.thumbnail" alt="name.first name.last" class="user__photo"></section>
+		<section class="name__block">
+			<h2 class="users-name">name.title name.first name.last</h2>
+		</section>
+		<section class="user-contact-info__block">
+			<h3 class="section__title">Contact Info</h3>
+			<section class="phone-number__block"><a class="phone-number" href="tel:+phone">Phone: phone</a></section>
+			<section class="cell-phone-number__block"><a class="cell-phone-number" href="tel:+cell">Mobile: cell</a></section>
+			<section class="user-email-address__block"><a class="user-email-address" href="mailto:email">Email: email</a></section>
+			<section class="user-location__block">
+				
+				<h3 class="location-block__title">Location</h3>
+				<address>
+					<h4 class="address-element__title">Address</h4>
+					<span class="street-address">location.street.number location.street.name</span></address><br>
+					<span class="city-state-postcode">location.city, location.state location.postcode</span><br>
+					<span class="country">location.country, Country Code: nat</span><br>
+					<span class="location-coordinates">Get Directions to name.first: location.coordinates.latitude location.coordinates.longitude</span>
+				</address>
+				<section class="timezone">Timezone: timezone.offset, timezone.description</section>
+			</section>
+		</section>
+		<section class="personal-info__block">
+			<section class="gender">Identifies as: gender</section>
+			<section class="user__birthday-age">DOB: dob.date, Age: dob.age</section>
+
+		</section>
+		<section class="membership-info__block">
+			<section class="registered__date">Signedup: registered.date, registered.age Years of Membership</section>
+
+		</section>
+
+	</section>
+	<!-- The user's data:
+	cell: "(628)-466-7335"
+dob: {
+	date: "1959-04-10T23:25:51.378Z", 
+	age: 62}
+email: "ylse.oomens@example.com"
+gender: "female"
+id: {
+	name: "BSN",
+	 value: "68771564"}
+location: {
+	street: {
+		number: 7922, 
+		name: "Brahmslaan"}, 
+	city: "Schijf", 
+	state: "Friesland", 
+	country: "Netherlands", 
+	postcode: 80885,
+	coordinates: {
+		latitude: "41.5222",
+		 longitude: "156.2343"}
+	timezone: {
+		offset: "-2:00", 
+		description: "Mid-Atlantic"}
+name: {
+	title: "Ms", 
+	first: "Ylse", 
+	last: "Oomens"}
+nat: "NL"
+phone: "(567)-503-6041"
+picture: {
+	large: "https://randomuser.me/api/portraits/women/1.jpg", 
+	medium: "https://randomuser.me/api/portraits/med/women/1.jpg", 
+	thumbnail: "https://randomuser.me/api/portraits/thumb/women/1.jpg"}
+registered: {
+	date: "2015-08-03T02:17:28.753Z", 
+	age: 6} -->
+
 	
 	<script type="module" src="scripts/main.js"></script>
 </body>

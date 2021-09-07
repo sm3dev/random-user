@@ -1,16 +1,16 @@
 console.log("You look marvelous!")
 
+import { getRandomUser } from "./data/UserDataManager.js"
+import { UserItem } from "./data/UserItem.js";
+
 const showRandomUser = () => {
 
-    return fetch("https://randomuser.me/api/").then(response => response.json()).then(parsedResponse => {
-        console.log(parsedResponse);
+    const postElement = document.querySelector(".user-info__block");
+    getRandomUser().then((oneUser) => {
+        postElement.innerHTML = 
     })
-    // url: 'https://randomuser.me/api/',
-    // dataType: 'json',
-    // success: function(data) {
-    //   console.log(data);
-    // }
+
+    getRandomUser();
 };
 
 showRandomUser();
-     
